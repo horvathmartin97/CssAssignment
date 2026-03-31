@@ -4,12 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./Styles/main.css" />
   </head>
   <body>
-    <h1>hello hello</h1>
-    <h2>Hello, From Eric</h2>
-    <p>first branch thing</p>
-    <label for="email">Email</label>
-    <input type="text" name="email" id="email" />
+    <header class="header">
+      <a href="./index.html" class="logo-container">
+        <img src="./Images/logo.png" alt="Logo" />
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="left">
+          <h1 class="main-title">This website is awesome</h1>
+          <p class="subtext">
+            This website has some subtext that goes here under the main title.
+            It's smaller font and the color is lower contrast
+          </p>
+          <button class="signUpHero">Sign Up</button>
+        </div>
+        <div class="right">
+          <img src="./Images/airpods.jpg" alt="Air Pods photo" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
