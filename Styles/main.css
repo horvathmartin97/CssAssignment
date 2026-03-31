@@ -129,3 +129,29 @@ a:hover {
   height: 170px;
   border-radius: 16px;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 120px 40px;
+}
+
+.quote-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: light italic;
+  font-weight: 300;
+  color: #1f2937;
+  line-height: 1.35;
+}
+
+.quote-author {
+  margin-top: 24px;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 800;
+  color: #1f2937;
+}
