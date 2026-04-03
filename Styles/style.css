@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf");
+}
+
+h1 {
+    font-family: "Roboto";
+
+} 
+
+header {
+    height: 80px;
+}
+
+.main {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+
+
+}
