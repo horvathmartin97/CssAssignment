@@ -3,9 +3,70 @@
     src: url("../fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf");
 }
 
+@font-face {
+    font-family: "Dyna-Puff";
+    src: url("../fonts/DynaPuff/DynaPuff-VariableFont_wdth,wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 body {
     font-family: "Roboto";
 }
+
+header {
+    height: 80px;
+    background-color: #1F2937;
+    padding: 20px 150px 20px 150px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.nav-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+.nav-links a:hover {
+    color: #000;
+    transform: scale(1.1);
+}
+
+.logo p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: "Dyna-Puff";
+    font-size: 40px;
+    color: #fff;
+}
+
+
 
 h1 {
     margin-block-end: 0em;
@@ -42,9 +103,6 @@ hr {
     border-top: 2px solid #000;
 }
 
-header {
-    height: 80px;
-}
 
 main {
     background-color: #1F2937;
@@ -352,7 +410,89 @@ a {
 }
 
 @media (max-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .logo p {
+        font-size: 28px;
+    }
+
     .hero {
         flex-direction: column;
+        padding: 40px;
     }
+
+    header{
+        padding: 20px;
+    }
+
+    .hero-left {
+        margin-top: 60px;
+        padding: 0px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .space-holder-text {
+        padding: 40px 20px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .bg-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px 20px 0px;
+        font-size: 45px;
+    }
+
+    .company-story {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .story-right {
+        margin-right: 0;
+    }
+
+    .goals {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .goals-boxen{
+        margin-left: 0px;
+    }
+
+    .first-row,
+    .second-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-to-action {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .call-to-action img {
+        object-fit: cover;
+    }
+
 }
