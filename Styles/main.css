@@ -9,18 +9,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header {
-  background-color: #1f2937;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 40px;
-  gap: 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
 .logo-container {
   text-decoration: none;
   color: #ffffff;
