@@ -9,8 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
-.hero-section{
+.hero-section {
   background-color: #1f2937;
   height: 50vh;
   padding: 16px 24px;
@@ -137,16 +136,16 @@ body {
 }
 .cta-container {
   background-color: #3882f6;
-  width: 65%;
+  width: 75%;
   margin: auto;
   color: #ffffff;
+  border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
   margin-bottom: 30px;
-  border-radius: 12px;
-  height: 100px;
+  height: 200px;
 }
 .cta-button {
   background-color: #2d8cff;
