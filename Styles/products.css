@@ -4,6 +4,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,12 +41,6 @@ p {
   font-style: italic;
   font-weight: lighter;
   letter-spacing: 10px;
-}
-
-.container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .products-hero {
@@ -164,6 +159,10 @@ p {
 .testimonial span {
   font-weight: bold;
   font-size: 1.125rem;
+}
+
+.testimonial i{
+  color: #ffd43b;
 }
 
 @media (min-width: 780px) {

@@ -5,52 +5,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../Styles/about.css" />
+  <link rel="stylesheet" href="./../Styles/layout.css" />
   <title>About us - earpody</title>
 </head>
 
 <body>
 
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <p>EarPody</p>
-      </div>
-
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="Products.html">Product</a></li>
+  <header class="header">
+    <nav aria-label="Main navigation">
+      <a href="./../index.html" class="logo">EarPody</a>
+      <ul class="nav-list">
+        <li><a href="./About.html">About</a></li>
+        <li><a href="./Products.html">Products</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="about-hero">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-left">
+            <h1>ABOUT <span>EARPODY</span></h1>
+            <span>Sound is not just sound.
+              It’s how you feel the world.
+            </span>
+            <p>
+              You don’t just listen.
+              You focus. You escape. You create your own space — wherever you are.
 
-      <div class="hero-left">
-        <h1>ABOUT <span>earpody</span></h1>
-        <span>Sound is not just sound.
-          It’s how you feel the world.
-        </span>
-        <p>
-          You don’t just listen.
-          You focus. You escape. You create your own space — wherever you are.
+              In a world full of noise, you choose what reaches you.
+              You decide what matters.
 
-          In a world full of noise, you choose what reaches you.
-          You decide what matters.
+              That’s why these earpods were never just a product.
+              They were built from a simple idea:
 
-          That’s why these earpods were never just a product.
-          They were built from a simple idea:
+              <span>You deserve sound that feels right.</span>
+            </p>
+          </div>
 
-          <span>You deserve sound that feels right.</span>
-        </p>
-      </div>
-
-      <div class="hero-right">
-        <img src="../Images/hero picture.png" alt="">
+          <div class="hero-right">
+            <img src="../Images/hero picture.png" alt="">
+          </div>
+        </div>
       </div>
     </section>
   </main>
-
   <section class="space-holder-text">
     <div class="space-holder-content">
       <h2>OUR MISSION:</h2>
@@ -58,14 +58,11 @@
       <span>Create the best sound!</span>
     </div>
   </section>
-
   <section class="company-story">
-
     <div class="story-left">
       <img src="../Images/about us  earpods first mission.png" alt="" srcset="">
 
     </div>
-
     <div class="story-right">
       <span>OUR START</span>
       <hr>
@@ -77,11 +74,8 @@
         can stay in your zone wherever you are.</p>
     </div>
   </section>
-
   <section class="company-goals">
-
     <div class="goals">
-
       <div class="goal-text">
         <h2>OUR GOALS:</h2>
         <hr class="hr-black">
@@ -174,9 +168,26 @@
 
 
 
-  <section class="footer">
-    <span>Copyright &#169; </span>
-  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-content">
+          <a href="./index.html" class="logo">EarPody</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequa</p>
+        </div>
+        <div class="footer-nav">
+          <ul class="footer-links">
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Products.html">Products</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 

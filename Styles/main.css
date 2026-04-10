@@ -9,43 +9,27 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.logo-container {
-  text-decoration: none;
-  color: #ffffff;
-  font-family: "DynaPuff", system-ui, sans-serif;
-  font-size: 24px;
-}
 
-.nav-list {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  color: #e5e7eb;
-}
-
-.nav-list a {
-  color: white;
-  text-decoration: none;
-}
-.nav-list a:hover {
-  text-decoration: underline;
-}
-
-.hero {
+.hero-section{
   background-color: #1f2937;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   height: 50vh;
   padding: 16px 24px;
 }
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
 .left {
-  height: 300px;
+  /* height: 300px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   gap: 15px;
+  flex: 1;
 }
 .main-title {
   font-weight: bold;
@@ -72,14 +56,16 @@ body {
   cursor: pointer;
 }
 .right {
-  width: 800px;
-  height: 300px;
+  flex: 1;
+  /* width: 800px;
+  height: 300px; */
 }
 .right img {
   width: 100%;
-  max-width: 800px;
+  object-fit: cover;
+  /* max-width: 800px;
   height: auto;
-  max-height: 300px;
+  max-height: 300px; */
 }
 .info-section {
   padding: 60px 80px 100px;
@@ -173,23 +159,13 @@ body {
   cursor: pointer;
 }
 
-footer {
-  text-align: center;
-  background-color: #1f2937;
-  color: #ffffff;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @media (max-width: 900px) {
   .hero {
     flex-direction: column;
     height: auto;
     text-align: center;
     gap: 30px;
-    padding: 40px 24px;
+    padding: 0 24px;
   }
 
   .left {

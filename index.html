@@ -1,106 +1,119 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EarPody.</title>
-    <link rel="stylesheet" href="./Styles/main.css" />
-    <link rel="stylesheet" href="./Styles/header.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="./index.html" class="logo-container"> EarPody. </a>
 
-      <nav aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="./Pages/About.html">About</a></li>
-          <li><a href="./Pages/Products.html">Products</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EarPody.</title>
+  <link rel="stylesheet" href="./Styles/main.css" />
+  <link rel="stylesheet" href="./Styles/layout.css" />
+</head>
 
-    <main>
-      <section class="hero">
-        <div class="left">
-          <h1 class="main-title">Sound that fits your day.</h1>
-          <p class="subtext">
-            Discover stylish wireless earbuds with clear sound, long battery
-            life, and a comfortable fit for everyday use.
-          </p>
-          <button class="signUpHero">Sign Up</button>
-        </div>
-        <div class="right">
-          <img src="./Images/airpods.jpg" alt="Air Pods photo" />
-        </div>
-      </section>
+<body>
+  <header class="header">
+    <nav aria-label="Main navigation">
+      <a href="./index.html" class="logo">EarPody</a>
+      <ul class="nav-list">
+        <li><a href="./Pages/About.html">About</a></li>
+        <li><a href="./Pages/Products.html">Products</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <section class="info-section">
-        <h2 class="info-title">Made for your routine</h2>
-
-        <div class="info-cards">
-          <div class="card">
-            <div class="box">
-              <img
-                src="./Images/airpodsDuo.jpeg"
-                alt="Two wireless earbuds in charging case"
-              />
-            </div>
-            <p>Perfect for everyday listening and clear calls.</p>
-          </div>
-
-          <div class="card">
-            <div class="box">
-              <img
-                src="./Images/airpodsCasual.jpeg"
-                alt="Person using wireless earbuds casually"
-              />
-            </div>
-            <p>Lightweight comfort for music, videos, and commutes.</p>
-          </div>
-
-          <div class="card">
-            <div class="box">
-              <img
-                src="./Images/airpodsFitness.jpeg"
-                alt="wireless airpods during workout"
-              />
-            </div>
-            <p>Stay secure and focused during workouts and walks</p>
-          </div>
-
-          <div class="card">
-            <div class="box">
-              <img
-                src="./Images/airpodsAccessories.jpeg"
-                alt="wireless airpods ith everyday accessories"
-              />
-            </div>
-            <p>Designed to pair well with your daily essentials.</p>
-          </div>
-        </div>
-      </section>
-      <section class="quote-section">
-        <div class="quote-container">
-          <p class="quote-text">
-            Great sound can change the way your whole day feels. Stay focused,
-            stay inspired, and enjoy every moment with confidence.
-          </p>
-          <p class="quote-author">- EarPody</p>
-        </div>
-      </section>
-
-      <section class="cta-section">
-        <div class="cta-container">
-          <div class="cta-content">
-            <h3>Call to action! It's time!</h3>
-            <p>
-              Sign up for our product by clicking that button right over there !
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero">
+          <div class="left">
+            <h1 class="main-title">Sound that fits your day.</h1>
+            <p class="subtext">
+              Discover stylish wireless earbuds with clear sound, long battery
+              life, and a comfortable fit for everyday use.
             </p>
+            <button class="signUpHero">Sign Up</button>
           </div>
-          <button class="cta-button">Sign Up</button>
+          <div class="right">
+            <img src="./Images/airpods.jpg" alt="Air Pods photo" />
+          </div>
+        </div>~
+      </div>
+    </section>
+
+    <section class="info-section">
+      <h2 class="info-title">Made for your routine</h2>
+
+      <div class="info-cards">
+        <div class="card">
+          <div class="box">
+            <img src="./Images/airpodsDuo.jpeg" alt="Two wireless earbuds in charging case" />
+          </div>
+          <p>Perfect for everyday listening and clear calls.</p>
         </div>
-      </section>
-    </main>
-    <footer>Copyright</footer>
-  </body>
+
+        <div class="card">
+          <div class="box">
+            <img src="./Images/airpodsCasual.jpeg" alt="Person using wireless earbuds casually" />
+          </div>
+          <p>Lightweight comfort for music, videos, and commutes.</p>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <img src="./Images/airpodsFitness.jpeg" alt="wireless airpods during workout" />
+          </div>
+          <p>Stay secure and focused during workouts and walks</p>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <img src="./Images/airpodsAccessories.jpeg" alt="wireless airpods ith everyday accessories" />
+          </div>
+          <p>Designed to pair well with your daily essentials.</p>
+        </div>
+      </div>
+    </section>
+    <section class="quote-section">
+      <div class="quote-container">
+        <p class="quote-text">
+          Great sound can change the way your whole day feels. Stay focused,
+          stay inspired, and enjoy every moment with confidence.
+        </p>
+        <p class="quote-author">- EarPody</p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-container">
+        <div class="cta-content">
+          <h3>Call to action! It's time!</h3>
+          <p>
+            Sign up for our product by clicking that button right over there !
+          </p>
+        </div>
+        <button class="cta-button">Sign Up</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-content">
+          <a href="./index.html" class="logo">EarPody</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequa</p>
+        </div>
+        <div class="footer-nav">
+          <ul class="footer-links">
+            <li><a href="./Pages/About.html">About</a></li>
+            <li><a href="./Pages/Products.html">Products</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
