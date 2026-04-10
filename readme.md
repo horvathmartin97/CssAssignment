@@ -55,7 +55,7 @@ The project includes multiple visuals such as:
 1. Clone the repository.
 
    ```bash
-   git clone ub.com/horvathmartin97/CssAssignment
+   git clone https://github.com/horvathmartin97/CssAssignment
    ```
 
 2. Open the project folder in your editor.
